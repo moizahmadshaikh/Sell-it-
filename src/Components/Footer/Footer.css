@@ -1,0 +1,16 @@
+.footerParentDiv {
+  width: 100%;
+ 
+}
+.footerParentDiv .footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background: #555;
+  color: whitesmoke;
+}
+
+.footerParentDiv .footer p {
+  margin: 0;
+}

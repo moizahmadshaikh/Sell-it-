@@ -1,0 +1,82 @@
+.moreView {
+  margin: 16px 16px 24px;
+  padding: 16px 16px 32px;
+  background-color: #7d7c7c;
+  border-radius: 14px;
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.heading :first-child {
+  font-size: 24px;
+  color: white;
+}
+
+.heading :last-child {
+  font-size: 14px;
+  color: white;
+}
+.heading :last-child:hover {
+  color: red;
+}
+
+
+.recommendations .cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin:2em;
+}
+.moreView{
+  overflow-y: scroll;
+  overflow-x: hidden;
+  margin: 2em;
+  height: 750px;
+}
+.moreView .cards {
+  display: flex;
+  flex-wrap: wrap;
+  overflow-x: hidden;
+
+  width: 100%;
+  
+}
+.cards .quick-menu-cards{
+  margin: 25px;
+  overflow-x: hidden;
+
+}
+
+
+.recommendations {
+  margin: 16px 16px 24px;
+  background-color: #7d7c7c;
+  padding: 2em;
+  margin: 2em;
+  border-radius: 14px;
+}
+
+.recommendations .heading span {
+  font-size: 24px;
+  color: white;
+}
+.postParentDiv{
+  padding: auto;
+}
+
+.fresh-recomendation-cards{
+  margin: 2em;
+  display: flex;
+  flex: wrap;
+  justify-content: space-evenly;
+}
+.fresh-recomendation-card{
+  display:flex;
+  flex: wrap;
+  justify-content: space-evenly;
+  margin-bottom: 2em;
+}
